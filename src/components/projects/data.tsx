@@ -79,7 +79,7 @@ export const timelineData: TimelineEntry[] = [
     title: "Fast Fitness",
     projectUrls: {
       site: {
-        url: "https://funfitness.great-site.net/",
+        url: "https://fastfitness.42web.io/",
         icon: <RiExternalLinkLine size={20} />,
       },
       repo: {
