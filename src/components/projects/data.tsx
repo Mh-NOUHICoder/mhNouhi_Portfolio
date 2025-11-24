@@ -8,6 +8,40 @@ export const sectionHeading = {
 
 export const timelineData: TimelineEntry[] = [
   {
+    title: "Golden Screen",
+    projectUrls: {
+      site: {
+        url: "https://goldenscreen.vercel.app/",
+        icon: <RiExternalLinkLine size={20} />,
+      },
+      repo: {
+        owner: "Mh-NOUHICoder",
+        name: "alx-project-nexus",
+        showStarCount: false,
+      },
+    },
+    imageUrl: "/images/golden-screen.png",
+    description: `A cinematic movie recommendation platform built with React, Next.js, and Tailwind. Features a hero search bar, genre and language filters, responsive movie grids, and personalized recommendations.`,
+    tech: [
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "TypeScript",
+      "TMDb API",
+    ],
+    cards: {
+      a: {
+        title: "Interactive Movie Discovery",
+        text: `Designed a premium UI with a cinematic hero section, scrollable dropdown filters, and responsive layouts. Implemented dynamic search and genre-based recommendations powered by TMDb API.`,
+      },
+      b: {
+        title: "Responsive & Accessible Design",
+        text: `Built reusable components in Figma and React with accessibility in mind. Optimized layouts for mobile and desktop, ensuring smooth navigation and a polished, branded experience across devices.`,
+      },
+    },
+  },
+  {
     title: "ShareXpress",
     projectUrls: {
       site: {
@@ -28,7 +62,7 @@ export const timelineData: TimelineEntry[] = [
       "SQLAlchemy",
       "HTML/CSS/JavaScript",
       "Bootstrap",
-      "SQLite/PostgreSQL"
+      "SQLite/PostgreSQL",
     ],
     cards: {
       a: {
@@ -60,7 +94,7 @@ export const timelineData: TimelineEntry[] = [
       "React 18+",
       "Tailwind CSS 3+",
       "React Icons",
-      "Font Awesome", 
+      "Font Awesome",
       "Vite",
       "Framer Motion",
     ],
@@ -84,20 +118,13 @@ export const timelineData: TimelineEntry[] = [
       },
       repo: {
         owner: "Mh-NOUHICoder",
-        name: "fun_fitness", 
+        name: "fun_fitness",
         showStarCount: true,
-      }
+      },
     },
     imageUrl: "/images/fun_fitness.png",
     description: `A comprehensive fitness center website with membership management, class scheduling, and admin dashboard. Built with modern web technologies for optimal performance and user experience.`,
-    tech: [
-      "HTML",
-      "CSS", 
-      "jQuery",
-      "PHP",
-      "MySQL",
-      "Laragon"
-    ],
+    tech: ["HTML", "CSS", "jQuery", "PHP", "MySQL", "Laragon"],
     cards: {
       a: {
         title: "Fitness Management System",
@@ -108,5 +135,5 @@ export const timelineData: TimelineEntry[] = [
         text: `Built an extensive admin panel for managing members, classes, and facility bookings. Implemented user authentication, attendance tracking, and revenue analytics to help gym owners monitor business performance.`,
       },
     },
-  }
+  },
 ];
