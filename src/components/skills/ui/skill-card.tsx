@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion';
 import { Card, CardHeader, CardContent } from '../../ui/card';
 import { Badge } from '../../ui/badge';
-import { SkillCategory } from '../data'; // Import the type
+// import { SkillCategory } from '../data'; // Import the type (removed)
 
 interface SkillCardProps {
   category: string;

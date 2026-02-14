@@ -13,7 +13,7 @@ export default function HomePage() {
       <Hero  />
       <Skills />
       <Projects />
-      {/* <About /> */}
+      {/* Removed unused variable 'About' */}
       <Contact />
       <Footer />
     </main>

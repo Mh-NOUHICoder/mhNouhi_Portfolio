@@ -63,7 +63,7 @@ export function Project({
         </BackgroundGradient>
         <WobbleCard
           style={{ backgroundColor: data?.[6] ?? "#262626" }}
-          containerClassName="basis-[20%] grow hidden lg:block"
+          containerClassName="basis-[30%] grow hidden lg:block"
           className="flex flex-col justify-center pt-2"
         >
           <h2

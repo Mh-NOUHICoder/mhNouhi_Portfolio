@@ -25,7 +25,7 @@ export function Form() {
           </div>
           <Input
             id="name"
-            placeholder="John Wick"
+            placeholder="Bruce Lee"
             type="text"
             {...register("name")}
           />

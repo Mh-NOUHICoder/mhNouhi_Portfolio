@@ -8,6 +8,43 @@ export const sectionHeading = {
 
 export const timelineData: TimelineEntry[] = [
   {
+  title: "LifeGuard AI",
+  projectUrls: {
+    site: {
+      url: "https://lifeguard-ai.vercel.app/", // replace if deployed
+      icon: <RiExternalLinkLine size={20} />,
+    },
+    repo: {
+      owner: "Mh-NOUHICoder",
+      name: "lifeguard-ai",
+      showStarCount: true,
+    },
+  },
+  imageUrl: "/images/lg-ai.png",
+  description: `An AI-powered real-time emergency assistant that analyzes live camera input to detect critical situations and guide users with instant response recommendations. Built for hackathon-level rapid deployment and real-world impact.`,
+
+  tech: [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "AI API Integration",
+    "WebRTC / Camera API",
+    "Vercel",
+  ],
+
+  cards: {
+    a: {
+      title: "Real-Time AI Scene Analysis",
+      text: `Implemented live camera capture and AI-powered scene interpretation to classify emergency severity. Designed a dynamic severity scoring system with visual indicators and actionable guidance.`,
+    },
+    b: {
+      title: "Production-Ready Architecture",
+      text: `Built with a scalable Next.js App Router structure, modular components, and API abstraction for AI providers. Optimized performance, rate-limit handling, and UX flow for critical-use scenarios.`,
+    },
+  },
+},
+  {
     title: "Golden Screen",
     projectUrls: {
       site: {
@@ -45,7 +82,7 @@ export const timelineData: TimelineEntry[] = [
     title: "ShareXpress",
     projectUrls: {
       site: {
-        url: "https://mhcoder.pythonanywhere.com/",
+        url: "https://mhnouhi.pythonanywhere.com/",
         icon: <RiExternalLinkLine size={20} />,
       },
       repo: {
@@ -113,7 +150,7 @@ export const timelineData: TimelineEntry[] = [
     title: "Fast Fitness",
     projectUrls: {
       site: {
-        url: "https://fastfitness.42web.io/",
+        url: "http://fastfitness.infinityfreeapp.com/",
         icon: <RiExternalLinkLine size={20} />,
       },
       repo: {

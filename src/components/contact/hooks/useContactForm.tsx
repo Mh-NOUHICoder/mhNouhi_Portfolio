@@ -10,11 +10,6 @@ const formData = z.object({
   email: z.string().email(),
 });
 
-const emailData = z.object({
-  name: z.string(),
-  email: z.string(),
-  message: z.string(),
-});
 
 type FormData = z.infer<typeof formData>;
 type EmailData = z.infer<typeof emailData>;

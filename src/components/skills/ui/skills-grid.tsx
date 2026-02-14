@@ -1,5 +1,5 @@
 import { SkillCard } from './skill-card';
-import { SkillCategory } from '../data'; // Import the type
+import { type SkillCategory } from '../data'; // Import the type
 
 interface SkillsGridProps {
   skills: SkillCategory[];
