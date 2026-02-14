@@ -10,6 +10,11 @@ const formData = z.object({
   email: z.string().email(),
 });
 
+const emailData = formData.extend({
+  message: z.string().min(1, { message: "Message is required" }),
+});
+
+
 
 type FormData = z.infer<typeof formData>;
 type EmailData = z.infer<typeof emailData>;
